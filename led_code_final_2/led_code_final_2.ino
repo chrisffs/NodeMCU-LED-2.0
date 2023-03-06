@@ -3,10 +3,10 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266HTTPClient.h>
 
-const char *ssid = "wifi ni lydia"; // Wifi Name
-const char *password = "salvador12345"; // Wifi Password
+const char *ssid = ""; // Wifi Name
+const char *password = ""; // Wifi Password
 
-const char *host = "http://192.168.12.111"; // IP Address
+const char *host = "http://"; // IP Address
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT); 
